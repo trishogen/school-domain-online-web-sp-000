@@ -2,7 +2,7 @@ class School
 
 
 
-  def initialize
+  def initialize(name, roster)
     @name = name
     @roster = {}
   end
