@@ -15,7 +15,7 @@ class School
   end
 
   def grade(grade)
-    return @roaster[grade]
+    puts @roaster[grade]
   end
 
 end
