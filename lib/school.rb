@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    @roster.sort_by { |key, val| key }
+    @roster.each_value { |v| v.sort! }
   end
 
 end
