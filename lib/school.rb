@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    @roster.values.sort
+    temp = @roster[ @roster.sort_by { |key, val| key } ]
   end
 
 end
